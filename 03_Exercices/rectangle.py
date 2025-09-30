@@ -9,6 +9,8 @@ class Rectangle:
     def surface(self):
         return self.largeur * self.longueur
     
+  
+    
 class Parallepipede(Rectangle):
     def __init__(self, longueur, largeur,hauteur):
         super().__init__(longueur, largeur)
@@ -36,6 +38,7 @@ para = Parallepipede(10,5,4)
 print(para.perimetre())
 print(para.surface())
 print(para.volume())
+
 
 
 
