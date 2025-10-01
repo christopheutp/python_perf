@@ -61,3 +61,20 @@ file_deque.append("a")
 file_deque.append("b")
 file_deque.append("c")
 print("Après enqueue a, b, c :", list(file_deque))
+
+# Défiler (dequeue) efficace avec popleft()
+front = file_deque.popleft()  # retire "a"
+print("popleft() ->", front)
+print("File maintenant :", list(file_deque))
+
+front = file_deque.popleft()  # retire "b"
+print("popleft() ->", front)
+print("File maintenant :", list(file_deque))
+
+# Il reste "c"
+print("Tête actuelle :", file_deque[0])
+
+# Remarque:
+# - Pile LIFO avec list: utiliser append() et pop() (fin de liste).
+# - File FIFO avec list: possible avec append() et pop(0) mais peu performant.
+# - File FIFO recommandée: utiliser collections.deque avec append() et popleft().
