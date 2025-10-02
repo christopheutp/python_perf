@@ -1,6 +1,7 @@
 import random
 import queue
 import threading
+import time
 
 class Producer(threading.Thread):
     def __init__(self, queue):
@@ -32,6 +33,7 @@ def main():
     prod = Producer(q)
     cons = Consumer(q)
     prod.start()
+    #time.sleep(2)
     cons.start()
     prod.join()
     cons.join()
