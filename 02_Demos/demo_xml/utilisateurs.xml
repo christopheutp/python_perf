@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<utilisateurs>
+  <utilisateur>
+    <nom>John Doe</nom>
+    <age>30</age>
+    <ville>New York</ville>
+  </utilisateur>
+  <utilisateur>
+    <nom>Jane Smith</nom>
+    <age>25</age>
+    <ville>Los Angeles</ville>
+  </utilisateur>
+</utilisateurs>
