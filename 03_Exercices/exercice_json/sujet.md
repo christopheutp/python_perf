@@ -14,7 +14,11 @@
    }
    ```
 2. a) Sauvegarde ce dict dans un fichier `catalogue.json` (joli avec `indent=2`).
+
    b) Relis le fichier et calcule le **prix total** de tous les produits.
+
    c) Ajoute une clé `"total"` au dict rechargé avec ce montant.
+
    d) Convertis le dict enrichi en **chaîne JSON** et affiche-la.
+   
    e) Écris aussi ce dict enrichi dans `catalogue_total.json`.

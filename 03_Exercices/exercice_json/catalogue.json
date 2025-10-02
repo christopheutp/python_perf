@@ -1,0 +1,19 @@
+{
+  "produits": [
+    {
+      "id": 1,
+      "nom": "Stylo",
+      "prix": 1.8
+    },
+    {
+      "id": 2,
+      "nom": "Cahier",
+      "prix": 2.5
+    },
+    {
+      "id": 3,
+      "nom": "Sac",
+      "prix": 19.9
+    }
+  ]
+}
