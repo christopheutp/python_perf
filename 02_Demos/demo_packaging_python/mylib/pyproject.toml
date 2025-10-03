@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mylib"
+version = "0.1.0"
+description = "Une petite lib d'exemple"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [{ name = "Toto" }]
+license = { text = "MIT" }
+
+[project.urls]
+Homepage = "https://doc_de_mon_package.com"
